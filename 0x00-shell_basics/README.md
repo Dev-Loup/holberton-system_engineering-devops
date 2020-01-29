@@ -1,0 +1,1 @@
+here are the first bash executable for some of the most common commands
