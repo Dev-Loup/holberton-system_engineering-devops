@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
+
+iter=0
+while [ $iter -lt 100 ]
+do
+    if ((iter % 3 == 0 && iter % 5 == 0))
+    then
+        echo "FizzBuzz"
+    elif ((iter % 3 == 0))
+    then
+        echo "Fizz"
+    elif ((iter % 3 == 0))
+    then
+        echo "Buzz"
+    else
+        echo "$iter"
+    fi
+    iter=$((iter+1))
+done
