@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
-iter="0"
-while ((iter < 10))
+iter=0
+while [ $iter -lt 10 ]
 do
     echo "Holberton School"
     iter=$((iter+1))
