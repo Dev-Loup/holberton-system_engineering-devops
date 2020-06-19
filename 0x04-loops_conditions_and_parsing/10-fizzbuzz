@@ -10,7 +10,7 @@ do
     elif ((iter % 3 == 0))
     then
         echo "Fizz"
-    elif ((iter % 3 == 0))
+    elif ((iter % 5 == 0))
     then
         echo "Buzz"
     else
