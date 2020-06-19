@@ -7,12 +7,12 @@ then
     if [ -s "$file" ]
     then
         echo "holbertonschool file is not empty"
-        if [ -f "$file" ]
-        then
-            echo "holbertonschool is a regular file"
-        fi
     else
         echo "holbertonschool file is empty"
+    fi
+    if [ -f "$file" ]
+    then
+        echo "holbertonschool is a regular file"
     fi
 else
     echo "holbertonschool file does not exist"
