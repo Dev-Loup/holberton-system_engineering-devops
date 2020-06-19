@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
+iter=0
+while [ $iter -lt 10 ]
+do
+    if [ $iter -eq 3 ]
+    then
+        echo "bad luck"
+    elif [ $iter -eq 7 ]
+    then
+        echo "good"
+    else
+        echo "Holberton School"
+    fi
+    iter=$((iter+1))
+done
