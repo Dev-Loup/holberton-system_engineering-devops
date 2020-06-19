@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 
-iter=0
+iter=1
 while [ $iter -lt 100 ]
 do
     if ((iter % 3 == 0 && iter % 5 == 0))
