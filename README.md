@@ -20,7 +20,7 @@ Foundational Studies on Shell scripting, commands and pipes are allocated here :
 ## Usage
 
 Feel free to check every file an its content:
-* 0x00-shell_basics: Commands for moving between folders and manging permissions
+* 0x00-shell_basics: Commands for moving between folders and managing permissions
 * 0x01-shell_permissions: Permissions management in bash
 * 0x02-vi has some more useful commands for vi editor
 * 0x02-shell_redirections: studies of input output redirection
@@ -29,11 +29,13 @@ Feel free to check every file an its content:
 * 0x05-processes_and_signals: signal handling in bash
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/diego-9407/holbertonschool-zero_day?style=flat-square
-[contributors-url]: https://github.com/diego-9407/holbertonschool-zero_day/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/diego-9407/holbertonschool-zero_day.svg?style=flat-square
-[forks-url]: https://github.com/diego-9407/holbertonschool-higher_level_programming/network/members
-[stars-shield]: https://img.shields.io/github/stars/diego-9407/holbertonschool-zero_day.svg?style=flat-square
-[stars-url]: https://github.com/diego-9407/holbertonschool-zero_day/stargazers
-[issues-shield]: https://img.shields.io/github/issues/diego-9407/holbertonschool-zero_day?style=flat-square
-[issues-url]: https://github.com/diego-9407/holbertonschool-zero_day/issues
+[contributors-shield]: https://img.shields.io/github/contributors/diego-9407/holberton-system_engineering-devops?style=flat-square
+[contributors-url]: https://github.com/diego-9407/holberton-system_engineering-devops/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/diego-9407/holberton-system_engineering-devops.svg?style=flat-square
+[forks-url]: https://github.com/diego-9407/holberton-system_engineering-devops/network/members
+[stars-shield]: https://img.shields.io/github/stars/diego-9407/holberton-system_engineering-devops.svg?style=flat-square
+[stars-url]: https://github.com/diego-9407/holberton-system_engineering-devops/stargazers
+[issues-shield]: https://img.shields.io/github/issues/diego-9407/holberton-system_engineering-devops/?style=flat-square
+[issues-url]: https://github.com/diego-9407/holberton-system_engineering-devops/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/diegromero
