@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#print processes filtered with a declared string
+pgrep -l bash
