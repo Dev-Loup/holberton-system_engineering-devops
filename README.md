@@ -35,7 +35,7 @@ Feel free to check every file an its content:
 [forks-url]: https://github.com/diego-9407/holberton-system_engineering-devops/network/members
 [stars-shield]: https://img.shields.io/github/stars/diego-9407/holberton-system_engineering-devops.svg?style=flat-square
 [stars-url]: https://github.com/diego-9407/holberton-system_engineering-devops/stargazers
-[issues-shield]: https://img.shields.io/github/issues/diego-9407/holberton-system_engineering-devops/?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/diego-9407/holberton-system_engineering-devops?style=flat-square
 [issues-url]: https://github.com/diego-9407/holberton-system_engineering-devops/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/diegromero
