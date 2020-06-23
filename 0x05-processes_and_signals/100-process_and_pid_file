@@ -3,7 +3,8 @@
 function hurted()
 {
     echo "I hate the kill command"
-    kill -SIGQUIT $BASHPID
+    rm /var/run/holbertonscript.pid
+    exit
 }
 trap hurted SIGTERM
 
@@ -14,7 +15,7 @@ function heartbroken()
 trap heartbroken SIGINT
 function dying()
 {
-    sudo rm /var/run/holbertonscript.pid
+    rm /var/run/holbertonscript.pid
     exit
 }
 trap dying SIGQUIT
