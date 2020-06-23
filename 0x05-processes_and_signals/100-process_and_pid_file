@@ -14,7 +14,7 @@ function heartbroken()
 trap heartbroken SIGINT
 function dying()
 {
-    rm /var/run/holbertonscript.pid
+    sudo rm /var/run/holbertonscript.pid
     exit
 }
 trap dying SIGQUIT
