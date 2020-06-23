@@ -1,3 +1,39 @@
-This is the basic of shell
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Here we are going to work in executable basis using bash, go to 0 item to start
+
+# Shell commands and scripting foundational
+
+<p align="center">
+  <img src="https://linube.com/blog/wp-content/uploads/bash-logo.png" alt="bash" width="80" height="80">
+</p>
+
+Foundational Studies on Shell scripting, commands and pipes are allocated here :)
+
+## Objectives
+
+* Getting knowledge in Bash/shell
+
+## Usage
+
+Feel free to check every file an its content:
+* 0x00-shell_basics: Commands for moving between folders and manging permissions
+* 0x01-shell_permissions: Permissions management in bash
+* 0x02-vi has some more useful commands for vi editor
+* 0x02-shell_redirections: studies of input output redirection
+* 0x03-shell_variables_expansions: expansions for bash
+* 0x04-loops_conditions_and_parsing: basics of loops statements and parsing variables
+* 0x05-processes_and_signals: signal handling in bash
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/diego-9407/holbertonschool-zero_day?style=flat-square
+[contributors-url]: https://github.com/diego-9407/holbertonschool-zero_day/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/diego-9407/holbertonschool-zero_day.svg?style=flat-square
+[forks-url]: https://github.com/diego-9407/holbertonschool-higher_level_programming/network/members
+[stars-shield]: https://img.shields.io/github/stars/diego-9407/holbertonschool-zero_day.svg?style=flat-square
+[stars-url]: https://github.com/diego-9407/holbertonschool-zero_day/stargazers
+[issues-shield]: https://img.shields.io/github/issues/diego-9407/holbertonschool-zero_day?style=flat-square
+[issues-url]: https://github.com/diego-9407/holbertonschool-zero_day/issues
