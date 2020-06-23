@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#infinity patience print To infinity and beyond interval 2
+function invincible()
+{
+    echo "I am invincible!!!"
+}
+trap invincible SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
