@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+#infinity patience print To infinity and beyond interval 2
+function hurted()
+{
+    echo "I hate the kill command"
+    kill -SIGQUIT $BASHPID
+}
+trap hurted SIGTERM
+
+function heartbroken()
+{
+    echo "Y U no love me?!"
+}
+trap heartbroken SIGINT
+function dying()
+{
+    rm /var/run/holbertonscript.pid
+    kill -SIGKILL $BASHPID
+}
+trap dying SIGQUIT
+
+echo $BASHPID > /var/run/holbertonscript.pid
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
