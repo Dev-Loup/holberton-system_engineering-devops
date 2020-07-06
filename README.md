@@ -29,13 +29,13 @@ Feel free to check every file an its content:
 * 0x05-processes_and_signals: signal handling in bash
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/diego-9407/holberton-system_engineering-devops?style=flat-square
-[contributors-url]: https://github.com/diego-9407/holberton-system_engineering-devops/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/diego-9407/holberton-system_engineering-devops.svg?style=flat-square
-[forks-url]: https://github.com/diego-9407/holberton-system_engineering-devops/network/members
-[stars-shield]: https://img.shields.io/github/stars/diego-9407/holberton-system_engineering-devops.svg?style=flat-square
-[stars-url]: https://github.com/diego-9407/holberton-system_engineering-devops/stargazers
-[issues-shield]: https://img.shields.io/github/issues/diego-9407/holberton-system_engineering-devops?style=flat-square
-[issues-url]: https://github.com/diego-9407/holberton-system_engineering-devops/issues
+[contributors-shield]: https://img.shields.io/github/contributors/LoopingDiego/holberton-system_engineering-devops?style=flat-square
+[contributors-url]: https://github.com/LoopingDiego/holberton-system_engineering-devops/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LoopingDiego/holberton-system_engineering-devops.svg?style=flat-square
+[forks-url]: https://github.com/LoopingDiego/holberton-system_engineering-devops/network/members
+[stars-shield]: https://img.shields.io/github/stars/LoopingDiego/holberton-system_engineering-devops.svg?style=flat-square
+[stars-url]: https://github.com/LoopingDiego/holberton-system_engineering-devops/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LoopingDiego/holberton-system_engineering-devops?style=flat-square
+[issues-url]: https://github.com/LoopingDiego/holberton-system_engineering-devops/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/diegromero
+[linkedin-url]: https://linkedin.com/in/loopingdiego
