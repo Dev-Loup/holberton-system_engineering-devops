@@ -1,3 +1,4 @@
 #!/bin/env bash
+# login into holby server with priv key
 ssh -i ~/.ssh/holberton ubuntu@35.227.40.137
 
