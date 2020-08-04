@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script for making RSA4096 key pairs
+ssh-keygen -t rsa -b 4096 -N betty -f holberton
+
