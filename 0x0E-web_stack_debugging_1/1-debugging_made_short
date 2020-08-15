@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# fix broken soft link by copying...no way!!
+cp -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
