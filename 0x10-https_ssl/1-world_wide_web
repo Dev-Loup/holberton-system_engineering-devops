@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# return subdomain record type and ip
+SUBDOS='www lb-01 web-01 web-02'
+if [ $# -eq 2 ]; then
+	SUBDOS="$2"
+else
+	SUBDOS='www lb-01 web-01 web-02'
+fi
+for subdo in $SUBDOS
+do
+	echo -n "The subdomain $subdo is a "
+	dig "$subdo.$1" | grep -A1 'ANSWER SECTION' | tail -n1 | awk '{print $4 " record and points to " $5}'
+done
+
