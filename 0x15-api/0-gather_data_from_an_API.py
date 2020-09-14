@@ -12,4 +12,4 @@ done_t = requests.get('{}/todos?userId={}&completed=true'
 print('Employee {} is done with tasks({}/{}):'
       .format(emp_name, len(done_t.json()), len(all_t.json())))
 for task in done_t.json():
-    print(task['title'])
+    print('\t {}'.format(task['title']))
