@@ -3,8 +3,8 @@
         Get all done tasks
 """
 
-from sys import argv
 import requests
+from sys import argv
 
 url_base = 'https://jsonplaceholder.typicode.com'
 emp_id = argv[1]
