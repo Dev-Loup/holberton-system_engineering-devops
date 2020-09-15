@@ -17,9 +17,10 @@ def todos_json_all():
         task_dict = {}
         for task in task_all.json():
             emp_id = task.get('userId')
-            task_dict[emp_id] = []
-            emp_data = requests.get('{}/users/{}'.format(url_base, emp_id))
-            emp_name = emp_data.json().get('username')
+            if task_dict.get(emp_id) is None:
+                task_dict[emp_id] = []
+                emp_data = requests.get('{}/users/{}'.format(url_base, emp_id))
+                emp_name = emp_data.json().get('username')
             task_dict[emp_id].append({'task': task.get('title'),
                                       'completed': task.get('completed'),
                                       'username': emp_name})
