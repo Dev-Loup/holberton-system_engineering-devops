@@ -7,7 +7,7 @@ import requests
 from sys import argv
 
 
-def todos_csv():
+def todos_json():
     """ execute if main
     """
 
@@ -23,7 +23,7 @@ def todos_csv():
         for task in task_all.json():
             task_dict[emp_id].append({'task': task.get('title'),
                                       'completed': task.get('completed'),
-                                      'username': task.get('username')})
+                                      'username': emp_name})
         with open(str(emp_id) + '.json', 'w') as request:
             json.dump(task_dict, request)
     except ValueError:
@@ -31,4 +31,4 @@ def todos_csv():
 
 
 if __name__ == '__main__':
-    todos_csv()
+    todos_json()
