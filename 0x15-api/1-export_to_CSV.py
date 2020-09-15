@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-""" ToDo's module by employee
-        Get all done tasks
+""" Get a CSV file of user tasks
 """
 
 import csv
@@ -8,7 +7,7 @@ import requests
 from sys import argv
 
 
-def todos():
+def todos_csv():
     """ execute if main
     """
 
@@ -16,7 +15,7 @@ def todos():
     try:
         emp_id = int(argv[1])
         emp_data = requests.get('{}/users/{}'.format(url_base, emp_id))
-        emp_name = emp_data.json().get('name')
+        emp_name = emp_data.json().get('username')
         task_all = requests.get('{}/todos?userId={}'.format(url_base, emp_id))
 
         with open(str(emp_id) + '.csv', 'w') as request:
@@ -31,4 +30,4 @@ def todos():
 
 
 if __name__ == '__main__':
-    todos()
+    todos_csv()
