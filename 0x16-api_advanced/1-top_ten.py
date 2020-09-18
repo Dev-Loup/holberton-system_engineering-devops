@@ -10,13 +10,13 @@ def top_ten(subreddit):
     """ Get the top 10 hot posts
     """
 
-    subre_data = requests.get("{}/r/{}/hot.json?limit=2&raw_json=1"
+    subre_data = requests.get("{}/r/{}/hot.json?limit=10"
                               .format(api_url, subreddit),
                               headers=agent,
                               allow_redirects=False)
-    if subre_data is not None:
-        data = subre_data.json().get('data')
-    if data is not None:
-        children = data.get('children')
-        for post in children:
-            print(ascii(post.get('data').get('title')))
+    if subre_data.status_code == 200:
+        children = subre_data.json().get('data').get('children')
+        for thread in children:
+            print(ascii(thread.get('data').get('title')))
+    else:
+        print('None')
